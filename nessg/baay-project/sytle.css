@@ -1,0 +1,32 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  display: inline-block;
+   border: 2px solid blue;
+  background-color: white;
+  padding: 10px;
+  border-radius: center;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  display: list-item;
+  color: aquamarine;
+  height: 50px;
+  width: 100%;
+  border-radius: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+li {
+  color: rgb(15, 146, 233);
+  height: 50%;
+  width: 100%;
+  border-top: cadetblue;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
